@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .image_body {
+    size: auto;
+    object-position: 50%;
+  
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-image: url('./images/main_bg.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .btn-delete {
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 11px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .modalDetails {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 35px;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    z-index: 5;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+  
+  .modalDetails img {
+    width: 400px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .modal-body {
+    width: 400px;
+    margin-top: 10px;
+  }
+  
+  .modal-body h5 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-body p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .menu {
+    width: 40px
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+  }
+  
+  .nav_left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px
+  }
+  
+  #products {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    width: 100%;
+    margin-top: 13% !important;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    color: #737d9b;
+  }
+  
+  .nav__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 280px;
+    list-style-type: none;
+    font-weight: 800;
+  }
+  
+  .nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  .navbar button {
+    background-color: #ff2366;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+    color: white;
+  }
+  
+  .burger-menu-svg {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .nav__title>svg {
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .modal {
+    background-color: white;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    z-index: 12;
+    display: none
+  }
+  
+  .close {
+    cursor: pointer;
+    width: 30px !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .modal button {
+    padding: 10px;
+    width: fit-content;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 200px;
+  }
+  
+  .modal input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card {
+    background: white;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.8s;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .card p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+  }
+  
+  .card h5 {
+    font-size: 25px;
+    font-weight: 900
+  }
+  
+  
+  .footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  
+  .footer ul {
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    list-style-type: none;
+    font-weight: 500;
+  }

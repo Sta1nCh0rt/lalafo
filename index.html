@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!-- <link href="./test.css" rel="stylesheet" type="text/css" /> -->
+  <link type="icon" rel="icon" href="https://play-lh.googleusercontent.com/KIEq8DN3XVTe64wD98vY5ExucGmIY7Y_2FTtBGFbrS16zYGfc1w-TiL2U5NXDJ3-yQ"/>
+  <title>replit</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="./test.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav_left">
+        <img class="logo" src="./images/lalafo.jpeg">
+        <img class="menu" src="./images/menu_icon.png">
+        <span>Для бизнеса</span>
+      </div>
+      <div class="nav_right">
+        <span>Войти</span>
+        <span>Регистрация</span>
+        <button class="add">Подать объявление</button>
+      </div>
+    </nav>
+    <!-- Cards -->
+    <div id="products"></div>
+
+    <!-- add modal -->
+    <div class="modal">
+      <img class="close" src="./images/close.jpg">
+      <h3>добавить объявление</h3>
+      <form id="add-form">
+        <input type="text" id="title" placeholder="Заголовок"  >
+        <input type="number" id="price" placeholder="Цена" >
+        <input type="text" id="desc" placeholder="Описание" >
+        <input type="url" id="image" placeholder="фото">
+        <button type="submit" class="send">Опубликовать</button>
+      </form>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+    <ul>
+      <li>Контакты</li>
+      <li>Где мы находимся?</li>
+      <li>О нас</li>
+      <li>Наши парнёры</li>
+    </ul>
+  </div>
+    
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
